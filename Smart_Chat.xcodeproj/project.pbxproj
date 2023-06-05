@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE2DE8CA2A2DC672002B9E04 /* Smart_ChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DE8C92A2DC672002B9E04 /* Smart_ChatApp.swift */; };
+		EE2DE8CC2A2DC672002B9E04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DE8CB2A2DC672002B9E04 /* ContentView.swift */; };
+		EE2DE8CE2A2DC673002B9E04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2DE8CD2A2DC673002B9E04 /* Assets.xcassets */; };
+		EE2DE8D22A2DC673002B9E04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2DE8D12A2DC673002B9E04 /* Preview Assets.xcassets */; };
+		EE2DE8DC2A2DC673002B9E04 /* Smart_ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DE8DB2A2DC673002B9E04 /* Smart_ChatTests.swift */; };
+		EE2DE8E62A2DC673002B9E04 /* Smart_ChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DE8E52A2DC673002B9E04 /* Smart_ChatUITests.swift */; };
+		EE2DE8E82A2DC673002B9E04 /* Smart_ChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DE8E72A2DC673002B9E04 /* Smart_ChatUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE2DE8D82A2DC673002B9E04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE2DE8BE2A2DC672002B9E04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE2DE8C52A2DC672002B9E04;
+			remoteInfo = Smart_Chat;
+		};
+		EE2DE8E22A2DC673002B9E04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE2DE8BE2A2DC672002B9E04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE2DE8C52A2DC672002B9E04;
+			remoteInfo = Smart_Chat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE2DE8C62A2DC672002B9E04 /* Smart_Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smart_Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2DE8C92A2DC672002B9E04 /* Smart_ChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_ChatApp.swift; sourceTree = "<group>"; };
+		EE2DE8CB2A2DC672002B9E04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE2DE8CD2A2DC673002B9E04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE2DE8CF2A2DC673002B9E04 /* Smart_Chat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Smart_Chat.entitlements; sourceTree = "<group>"; };
+		EE2DE8D12A2DC673002B9E04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE2DE8D72A2DC673002B9E04 /* Smart_ChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Smart_ChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2DE8DB2A2DC673002B9E04 /* Smart_ChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_ChatTests.swift; sourceTree = "<group>"; };
+		EE2DE8E12A2DC673002B9E04 /* Smart_ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Smart_ChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2DE8E52A2DC673002B9E04 /* Smart_ChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_ChatUITests.swift; sourceTree = "<group>"; };
+		EE2DE8E72A2DC673002B9E04 /* Smart_ChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_ChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE2DE8C32A2DC672002B9E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2DE8D42A2DC673002B9E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2DE8DE2A2DC673002B9E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE2DE8BD2A2DC672002B9E04 = {
+			isa = PBXGroup;
+			children = (
+				EE2DE8C82A2DC672002B9E04 /* Smart_Chat */,
+				EE2DE8DA2A2DC673002B9E04 /* Smart_ChatTests */,
+				EE2DE8E42A2DC673002B9E04 /* Smart_ChatUITests */,
+				EE2DE8C72A2DC672002B9E04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE2DE8C72A2DC672002B9E04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE2DE8C62A2DC672002B9E04 /* Smart_Chat.app */,
+				EE2DE8D72A2DC673002B9E04 /* Smart_ChatTests.xctest */,
+				EE2DE8E12A2DC673002B9E04 /* Smart_ChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE2DE8C82A2DC672002B9E04 /* Smart_Chat */ = {
+			isa = PBXGroup;
+			children = (
+				EE2DE8C92A2DC672002B9E04 /* Smart_ChatApp.swift */,
+				EE2DE8CB2A2DC672002B9E04 /* ContentView.swift */,
+				EE2DE8CD2A2DC673002B9E04 /* Assets.xcassets */,
+				EE2DE8CF2A2DC673002B9E04 /* Smart_Chat.entitlements */,
+				EE2DE8D02A2DC673002B9E04 /* Preview Content */,
+			);
+			path = Smart_Chat;
+			sourceTree = "<group>";
+		};
+		EE2DE8D02A2DC673002B9E04 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE2DE8D12A2DC673002B9E04 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE2DE8DA2A2DC673002B9E04 /* Smart_ChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE2DE8DB2A2DC673002B9E04 /* Smart_ChatTests.swift */,
+			);
+			path = Smart_ChatTests;
+			sourceTree = "<group>";
+		};
+		EE2DE8E42A2DC673002B9E04 /* Smart_ChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE2DE8E52A2DC673002B9E04 /* Smart_ChatUITests.swift */,
+				EE2DE8E72A2DC673002B9E04 /* Smart_ChatUITestsLaunchTests.swift */,
+			);
+			path = Smart_ChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE2DE8C52A2DC672002B9E04 /* Smart_Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2DE8EB2A2DC673002B9E04 /* Build configuration list for PBXNativeTarget "Smart_Chat" */;
+			buildPhases = (
+				EE2DE8C22A2DC672002B9E04 /* Sources */,
+				EE2DE8C32A2DC672002B9E04 /* Frameworks */,
+				EE2DE8C42A2DC672002B9E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smart_Chat;
+			productName = Smart_Chat;
+			productReference = EE2DE8C62A2DC672002B9E04 /* Smart_Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE2DE8D62A2DC673002B9E04 /* Smart_ChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2DE8EE2A2DC673002B9E04 /* Build configuration list for PBXNativeTarget "Smart_ChatTests" */;
+			buildPhases = (
+				EE2DE8D32A2DC673002B9E04 /* Sources */,
+				EE2DE8D42A2DC673002B9E04 /* Frameworks */,
+				EE2DE8D52A2DC673002B9E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE2DE8D92A2DC673002B9E04 /* PBXTargetDependency */,
+			);
+			name = Smart_ChatTests;
+			productName = Smart_ChatTests;
+			productReference = EE2DE8D72A2DC673002B9E04 /* Smart_ChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE2DE8E02A2DC673002B9E04 /* Smart_ChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2DE8F12A2DC673002B9E04 /* Build configuration list for PBXNativeTarget "Smart_ChatUITests" */;
+			buildPhases = (
+				EE2DE8DD2A2DC673002B9E04 /* Sources */,
+				EE2DE8DE2A2DC673002B9E04 /* Frameworks */,
+				EE2DE8DF2A2DC673002B9E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE2DE8E32A2DC673002B9E04 /* PBXTargetDependency */,
+			);
+			name = Smart_ChatUITests;
+			productName = Smart_ChatUITests;
+			productReference = EE2DE8E12A2DC673002B9E04 /* Smart_ChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE2DE8BE2A2DC672002B9E04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EE2DE8C52A2DC672002B9E04 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					EE2DE8D62A2DC673002B9E04 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EE2DE8C52A2DC672002B9E04;
+					};
+					EE2DE8E02A2DC673002B9E04 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EE2DE8C52A2DC672002B9E04;
+					};
+				};
+			};
+			buildConfigurationList = EE2DE8C12A2DC672002B9E04 /* Build configuration list for PBXProject "Smart_Chat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE2DE8BD2A2DC672002B9E04;
+			productRefGroup = EE2DE8C72A2DC672002B9E04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE2DE8C52A2DC672002B9E04 /* Smart_Chat */,
+				EE2DE8D62A2DC673002B9E04 /* Smart_ChatTests */,
+				EE2DE8E02A2DC673002B9E04 /* Smart_ChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE2DE8C42A2DC672002B9E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2DE8D22A2DC673002B9E04 /* Preview Assets.xcassets in Resources */,
+				EE2DE8CE2A2DC673002B9E04 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2DE8D52A2DC673002B9E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2DE8DF2A2DC673002B9E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE2DE8C22A2DC672002B9E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2DE8CC2A2DC672002B9E04 /* ContentView.swift in Sources */,
+				EE2DE8CA2A2DC672002B9E04 /* Smart_ChatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2DE8D32A2DC673002B9E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2DE8DC2A2DC673002B9E04 /* Smart_ChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2DE8DD2A2DC673002B9E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2DE8E82A2DC673002B9E04 /* Smart_ChatUITestsLaunchTests.swift in Sources */,
+				EE2DE8E62A2DC673002B9E04 /* Smart_ChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE2DE8D92A2DC673002B9E04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE2DE8C52A2DC672002B9E04 /* Smart_Chat */;
+			targetProxy = EE2DE8D82A2DC673002B9E04 /* PBXContainerItemProxy */;
+		};
+		EE2DE8E32A2DC673002B9E04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE2DE8C52A2DC672002B9E04 /* Smart_Chat */;
+			targetProxy = EE2DE8E22A2DC673002B9E04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EE2DE8E92A2DC673002B9E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE2DE8EA2A2DC673002B9E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EE2DE8EC2A2DC673002B9E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Smart_Chat/Smart_Chat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Smart_Chat/Preview Content\"";
+				DEVELOPMENT_TEAM = TGABSP9C58;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "brianjien.Smart-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE2DE8ED2A2DC673002B9E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Smart_Chat/Smart_Chat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Smart_Chat/Preview Content\"";
+				DEVELOPMENT_TEAM = TGABSP9C58;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "brianjien.Smart-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE2DE8EF2A2DC673002B9E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TGABSP9C58;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "brianjien.Smart-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart_Chat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smart_Chat";
+			};
+			name = Debug;
+		};
+		EE2DE8F02A2DC673002B9E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TGABSP9C58;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "brianjien.Smart-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart_Chat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smart_Chat";
+			};
+			name = Release;
+		};
+		EE2DE8F22A2DC673002B9E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TGABSP9C58;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "brianjien.Smart-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Smart_Chat;
+			};
+			name = Debug;
+		};
+		EE2DE8F32A2DC673002B9E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TGABSP9C58;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "brianjien.Smart-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Smart_Chat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE2DE8C12A2DC672002B9E04 /* Build configuration list for PBXProject "Smart_Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2DE8E92A2DC673002B9E04 /* Debug */,
+				EE2DE8EA2A2DC673002B9E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2DE8EB2A2DC673002B9E04 /* Build configuration list for PBXNativeTarget "Smart_Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2DE8EC2A2DC673002B9E04 /* Debug */,
+				EE2DE8ED2A2DC673002B9E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2DE8EE2A2DC673002B9E04 /* Build configuration list for PBXNativeTarget "Smart_ChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2DE8EF2A2DC673002B9E04 /* Debug */,
+				EE2DE8F02A2DC673002B9E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2DE8F12A2DC673002B9E04 /* Build configuration list for PBXNativeTarget "Smart_ChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2DE8F22A2DC673002B9E04 /* Debug */,
+				EE2DE8F32A2DC673002B9E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE2DE8BE2A2DC672002B9E04 /* Project object */;
+}
