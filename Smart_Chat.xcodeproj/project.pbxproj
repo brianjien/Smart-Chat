@@ -14,6 +14,9 @@
 		EE2DE8DC2A2DC673002B9E04 /* Smart_ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DE8DB2A2DC673002B9E04 /* Smart_ChatTests.swift */; };
 		EE2DE8E62A2DC673002B9E04 /* Smart_ChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DE8E52A2DC673002B9E04 /* Smart_ChatUITests.swift */; };
 		EE2DE8E82A2DC673002B9E04 /* Smart_ChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DE8E72A2DC673002B9E04 /* Smart_ChatUITestsLaunchTests.swift */; };
+		EE2DE8FB2A2DD67B002B9E04 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2DE8FA2A2DD67B002B9E04 /* Launch Screen.storyboard */; };
+		EE79FC162A2F0AD700840B3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE79FC152A2F0AD700840B3B /* AppDelegate.swift */; };
+		EE79FC182A2F1EB800840B3B /* Login_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE79FC172A2F1EB800840B3B /* Login_View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		EE2DE8C62A2DC672002B9E04 /* Smart_Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smart_Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2DE8C92A2DC672002B9E04 /* Smart_ChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_ChatApp.swift; sourceTree = "<group>"; };
-		EE2DE8CB2A2DC672002B9E04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE2DE8CB2A2DC672002B9E04 /* ContentView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		EE2DE8CD2A2DC673002B9E04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE2DE8CF2A2DC673002B9E04 /* Smart_Chat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Smart_Chat.entitlements; sourceTree = "<group>"; };
 		EE2DE8D12A2DC673002B9E04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +48,10 @@
 		EE2DE8E12A2DC673002B9E04 /* Smart_ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Smart_ChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2DE8E52A2DC673002B9E04 /* Smart_ChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_ChatUITests.swift; sourceTree = "<group>"; };
 		EE2DE8E72A2DC673002B9E04 /* Smart_ChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_ChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE2DE8FA2A2DD67B002B9E04 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		EE2DE8FC2A2DDD69002B9E04 /* Smart-Chat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Smart-Chat-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EE79FC152A2F0AD700840B3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE79FC172A2F1EB800840B3B /* Login_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +82,7 @@
 		EE2DE8BD2A2DC672002B9E04 = {
 			isa = PBXGroup;
 			children = (
+				EE2DE8FA2A2DD67B002B9E04 /* Launch Screen.storyboard */,
 				EE2DE8C82A2DC672002B9E04 /* Smart_Chat */,
 				EE2DE8DA2A2DC673002B9E04 /* Smart_ChatTests */,
 				EE2DE8E42A2DC673002B9E04 /* Smart_ChatUITests */,
@@ -95,11 +103,14 @@
 		EE2DE8C82A2DC672002B9E04 /* Smart_Chat */ = {
 			isa = PBXGroup;
 			children = (
+				EE2DE8FC2A2DDD69002B9E04 /* Smart-Chat-Info.plist */,
 				EE2DE8C92A2DC672002B9E04 /* Smart_ChatApp.swift */,
 				EE2DE8CB2A2DC672002B9E04 /* ContentView.swift */,
 				EE2DE8CD2A2DC673002B9E04 /* Assets.xcassets */,
 				EE2DE8CF2A2DC673002B9E04 /* Smart_Chat.entitlements */,
 				EE2DE8D02A2DC673002B9E04 /* Preview Content */,
+				EE79FC152A2F0AD700840B3B /* AppDelegate.swift */,
+				EE79FC172A2F1EB800840B3B /* Login_View.swift */,
 			);
 			path = Smart_Chat;
 			sourceTree = "<group>";
@@ -233,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE2DE8FB2A2DD67B002B9E04 /* Launch Screen.storyboard in Resources */,
 				EE2DE8D22A2DC673002B9E04 /* Preview Assets.xcassets in Resources */,
 				EE2DE8CE2A2DC673002B9E04 /* Assets.xcassets in Resources */,
 			);
@@ -259,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE79FC162A2F0AD700840B3B /* AppDelegate.swift in Sources */,
 				EE2DE8CC2A2DC672002B9E04 /* ContentView.swift in Sources */,
+				EE79FC182A2F1EB800840B3B /* Login_View.swift in Sources */,
 				EE2DE8CA2A2DC672002B9E04 /* Smart_ChatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,12 +433,16 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smart-Chat-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -437,7 +455,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "brianjien.Smart-Chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,12 +477,16 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smart-Chat-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -475,7 +499,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "brianjien.Smart-Chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

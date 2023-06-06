@@ -9,8 +9,10 @@ import SwiftUI
 
 @main
 struct Smart_ChatApp: App {
+    @UIApplicationDelegateAdaptor var appDelegate: AppDelegate
     var body: some Scene {
         WindowGroup {
+         
             ContentView()
         }
     }
