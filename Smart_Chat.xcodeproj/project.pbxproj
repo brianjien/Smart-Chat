@@ -15,6 +15,7 @@
 		EE2DE8E62A2DC673002B9E04 /* Smart_ChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DE8E52A2DC673002B9E04 /* Smart_ChatUITests.swift */; };
 		EE2DE8E82A2DC673002B9E04 /* Smart_ChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DE8E72A2DC673002B9E04 /* Smart_ChatUITestsLaunchTests.swift */; };
 		EE2DE8FB2A2DD67B002B9E04 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2DE8FA2A2DD67B002B9E04 /* Launch Screen.storyboard */; };
+		EE6B8EE82A30291B00D63568 /* Registration_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6B8EE72A30291B00D63568 /* Registration_View.swift */; };
 		EE79FC162A2F0AD700840B3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE79FC152A2F0AD700840B3B /* AppDelegate.swift */; };
 		EE79FC182A2F1EB800840B3B /* Login_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE79FC172A2F1EB800840B3B /* Login_View.swift */; };
 /* End PBXBuildFile section */
@@ -50,8 +51,9 @@
 		EE2DE8E72A2DC673002B9E04 /* Smart_ChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_ChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EE2DE8FA2A2DD67B002B9E04 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		EE2DE8FC2A2DDD69002B9E04 /* Smart-Chat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Smart-Chat-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EE6B8EE72A30291B00D63568 /* Registration_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration_View.swift; sourceTree = "<group>"; };
 		EE79FC152A2F0AD700840B3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EE79FC172A2F1EB800840B3B /* Login_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_View.swift; sourceTree = "<group>"; };
+		EE79FC172A2F1EB800840B3B /* Login_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_View.swift; sourceTree = "<group>"; tabWidth = 5; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				EE2DE8D02A2DC673002B9E04 /* Preview Content */,
 				EE79FC152A2F0AD700840B3B /* AppDelegate.swift */,
 				EE79FC172A2F1EB800840B3B /* Login_View.swift */,
+				EE6B8EE72A30291B00D63568 /* Registration_View.swift */,
 			);
 			path = Smart_Chat;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				EE79FC162A2F0AD700840B3B /* AppDelegate.swift in Sources */,
 				EE2DE8CC2A2DC672002B9E04 /* ContentView.swift in Sources */,
 				EE79FC182A2F1EB800840B3B /* Login_View.swift in Sources */,
+				EE6B8EE82A30291B00D63568 /* Registration_View.swift in Sources */,
 				EE2DE8CA2A2DC672002B9E04 /* Smart_ChatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
