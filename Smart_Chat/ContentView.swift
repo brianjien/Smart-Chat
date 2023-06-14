@@ -35,7 +35,7 @@ struct ContentView: View {
                 }
             
             // Settings View
-            Text("Settings")
+            Setting_ViewUI()
                 .tabItem {
                     Image(systemName: "gearshape")
                     Text("Settings")

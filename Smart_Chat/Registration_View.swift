@@ -18,17 +18,23 @@ struct RegistrationView: View {
     @State private var password: String = ""
     @State private var confirmPassword: String = ""
     @State private var isLoading: Bool = false
-    @Binding var navigateToLogin: Bool
+    @Binding var navigateToLogin: Bool 
+    @Binding var navigateToRegistration: Bool
 
     
     var body: some View {
-  
+        
         VStack {
             
             
             Text("Create an Account")
                 .font(.system(size: 45, weight: .bold)) // Make text bold
-
+            Image("Registratioin")
+                .resizable()
+                .aspectRatio(contentMode:  .fit)
+                .frame(width: 150)
+            
+            
             TextField("Email", text: $email)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding()
@@ -42,7 +48,7 @@ struct RegistrationView: View {
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding()
             
-   
+            
             
             Button(action: {
                 // Perform registration action here
@@ -59,6 +65,7 @@ struct RegistrationView: View {
                         .frame(maxWidth: .infinity)
                         .background(Color.blue)
                         .cornerRadius(10)
+                    
                 }
             }
             .padding()
@@ -70,9 +77,10 @@ struct RegistrationView: View {
         .background(Color.orange.opacity(0.3))
         
     }
-        
+    
     
     func register() {
+        navigateToRegistration = false
         if email.isEmpty || password.isEmpty || confirmPassword.isEmpty {
             // Show an error message if any field is empty
             print("Please fill in all fields")
@@ -80,39 +88,40 @@ struct RegistrationView: View {
             // Show an error message if passwords don't match
             print("Passwords do not match")
             
-
+            
         } else {
             isLoading = true
-            
+            navigateToRegistration = false
             // Simulate an asynchronous registration operation
             DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                 // Perform the registration operation
                 print("Registered successfully")
-
+                
                 // Reset the form
                 email = ""
                 password = ""
                 confirmPassword = ""
-                isLoading = true
-
-                // Navigate to the login view
                 navigateToLogin = true
-            }
+                
             }
         }
-        
-        
-    
-        
-        
     }
+    
+    
+    
+    
+    
+}
 
 
 struct RegistrationView_Previews: PreviewProvider {
     static var previews: some View {
-        RegistrationView(navigateToLogin: .constant(false))
+        RegistrationView(navigateToLogin: .constant(false), navigateToRegistration: .constant(false))
             .padding(0.0)
-          
-
+        
+        
+        
+        
+        
     }
 }

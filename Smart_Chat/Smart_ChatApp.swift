@@ -13,20 +13,24 @@ struct Smart_ChatApp: App {
     @State private var navigateToRegistration: Bool = false
     @State private var loggedIn: Bool = false
     @State private var navigateToLogin: Bool = false
+    
 
 
     var body: some Scene {
         WindowGroup {
             if loggedIn {
-                  ContentView()
-              } else if navigateToRegistration {
-                  RegistrationView(navigateToLogin: $navigateToLogin)
-              } else if navigateToLogin {
-                  LoginView(Change_To_Main: $loggedIn, navigateToRegistration: $navigateToRegistration, navigateToLogin: $navigateToLogin)
-              } else {
-                  LoginView(Change_To_Main: $loggedIn, navigateToRegistration: $navigateToRegistration, navigateToLogin: $navigateToLogin)
-              }
+                ContentView()
+            } else if navigateToRegistration && navigateToLogin == false {
+                RegistrationView(navigateToLogin: $navigateToLogin, navigateToRegistration: $navigateToRegistration)
+            }else if loggedIn == false && navigateToLogin == false {
+                LoginView(Change_To_Main: $loggedIn, navigateToRegistration: $navigateToRegistration, navigateToLogin: $navigateToLogin)
+            }
+            
+           if navigateToLogin == true  {
+                LoginView(Change_To_Main: $loggedIn, navigateToRegistration: $navigateToRegistration, navigateToLogin: $navigateToLogin)
+            }
         }
+
 
     }
 }

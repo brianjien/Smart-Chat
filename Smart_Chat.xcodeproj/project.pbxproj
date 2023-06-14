@@ -16,6 +16,14 @@
 		EE2DE8E82A2DC673002B9E04 /* Smart_ChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DE8E72A2DC673002B9E04 /* Smart_ChatUITestsLaunchTests.swift */; };
 		EE2DE8FB2A2DD67B002B9E04 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2DE8FA2A2DD67B002B9E04 /* Launch Screen.storyboard */; };
 		EE6B8EE82A30291B00D63568 /* Registration_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6B8EE72A30291B00D63568 /* Registration_View.swift */; };
+		EE6B8EEA2A39AC6A00D63568 /* Setting_ViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6B8EE92A39AC6A00D63568 /* Setting_ViewUI.swift */; };
+		EE6B8EEC2A39AD1300D63568 /* AccountSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6B8EEB2A39AD1300D63568 /* AccountSettingsView.swift */; };
+		EE6B8EEE2A39AD4200D63568 /* PrivacySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6B8EED2A39AD4200D63568 /* PrivacySettingsView.swift */; };
+		EE6B8EF02A39AD5D00D63568 /* NotificationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6B8EEF2A39AD5D00D63568 /* NotificationSettingsView.swift */; };
+		EE6B8EF22A39AD6E00D63568 /* ThemeSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6B8EF12A39AD6E00D63568 /* ThemeSettingsView.swift */; };
+		EE6B8EF42A39AD7B00D63568 /* LanguageSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6B8EF32A39AD7B00D63568 /* LanguageSettingsView.swift */; };
+		EE6B8EF62A39AD8700D63568 /* AppearanceSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6B8EF52A39AD8700D63568 /* AppearanceSettingsView.swift */; };
+		EE6B8EF92A39ADAD00D63568 /* AboutAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6B8EF82A39ADAD00D63568 /* AboutAppView.swift */; };
 		EE79FC162A2F0AD700840B3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE79FC152A2F0AD700840B3B /* AppDelegate.swift */; };
 		EE79FC182A2F1EB800840B3B /* Login_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE79FC172A2F1EB800840B3B /* Login_View.swift */; };
 /* End PBXBuildFile section */
@@ -52,6 +60,14 @@
 		EE2DE8FA2A2DD67B002B9E04 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		EE2DE8FC2A2DDD69002B9E04 /* Smart-Chat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Smart-Chat-Info.plist"; sourceTree = SOURCE_ROOT; };
 		EE6B8EE72A30291B00D63568 /* Registration_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration_View.swift; sourceTree = "<group>"; };
+		EE6B8EE92A39AC6A00D63568 /* Setting_ViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting_ViewUI.swift; sourceTree = "<group>"; };
+		EE6B8EEB2A39AD1300D63568 /* AccountSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingsView.swift; sourceTree = "<group>"; };
+		EE6B8EED2A39AD4200D63568 /* PrivacySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacySettingsView.swift; sourceTree = "<group>"; };
+		EE6B8EEF2A39AD5D00D63568 /* NotificationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsView.swift; sourceTree = "<group>"; };
+		EE6B8EF12A39AD6E00D63568 /* ThemeSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSettingsView.swift; sourceTree = "<group>"; };
+		EE6B8EF32A39AD7B00D63568 /* LanguageSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSettingsView.swift; sourceTree = "<group>"; };
+		EE6B8EF52A39AD8700D63568 /* AppearanceSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceSettingsView.swift; sourceTree = "<group>"; };
+		EE6B8EF82A39ADAD00D63568 /* AboutAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppView.swift; sourceTree = "<group>"; };
 		EE79FC152A2F0AD700840B3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE79FC172A2F1EB800840B3B /* Login_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_View.swift; sourceTree = "<group>"; tabWidth = 5; };
 /* End PBXFileReference section */
@@ -105,6 +121,7 @@
 		EE2DE8C82A2DC672002B9E04 /* Smart_Chat */ = {
 			isa = PBXGroup;
 			children = (
+				EE6B8EF72A39AD9B00D63568 /* Setting */,
 				EE2DE8FC2A2DDD69002B9E04 /* Smart-Chat-Info.plist */,
 				EE2DE8C92A2DC672002B9E04 /* Smart_ChatApp.swift */,
 				EE2DE8CB2A2DC672002B9E04 /* ContentView.swift */,
@@ -141,6 +158,21 @@
 				EE2DE8E72A2DC673002B9E04 /* Smart_ChatUITestsLaunchTests.swift */,
 			);
 			path = Smart_ChatUITests;
+			sourceTree = "<group>";
+		};
+		EE6B8EF72A39AD9B00D63568 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				EE6B8EE92A39AC6A00D63568 /* Setting_ViewUI.swift */,
+				EE6B8EEB2A39AD1300D63568 /* AccountSettingsView.swift */,
+				EE6B8EED2A39AD4200D63568 /* PrivacySettingsView.swift */,
+				EE6B8EEF2A39AD5D00D63568 /* NotificationSettingsView.swift */,
+				EE6B8EF12A39AD6E00D63568 /* ThemeSettingsView.swift */,
+				EE6B8EF32A39AD7B00D63568 /* LanguageSettingsView.swift */,
+				EE6B8EF52A39AD8700D63568 /* AppearanceSettingsView.swift */,
+				EE6B8EF82A39ADAD00D63568 /* AboutAppView.swift */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,11 +306,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE6B8EEC2A39AD1300D63568 /* AccountSettingsView.swift in Sources */,
 				EE79FC162A2F0AD700840B3B /* AppDelegate.swift in Sources */,
 				EE2DE8CC2A2DC672002B9E04 /* ContentView.swift in Sources */,
+				EE6B8EF22A39AD6E00D63568 /* ThemeSettingsView.swift in Sources */,
+				EE6B8EF92A39ADAD00D63568 /* AboutAppView.swift in Sources */,
 				EE79FC182A2F1EB800840B3B /* Login_View.swift in Sources */,
 				EE6B8EE82A30291B00D63568 /* Registration_View.swift in Sources */,
 				EE2DE8CA2A2DC672002B9E04 /* Smart_ChatApp.swift in Sources */,
+				EE6B8EF02A39AD5D00D63568 /* NotificationSettingsView.swift in Sources */,
+				EE6B8EF42A39AD7B00D63568 /* LanguageSettingsView.swift in Sources */,
+				EE6B8EEE2A39AD4200D63568 /* PrivacySettingsView.swift in Sources */,
+				EE6B8EEA2A39AC6A00D63568 /* Setting_ViewUI.swift in Sources */,
+				EE6B8EF62A39AD8700D63568 /* AppearanceSettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
