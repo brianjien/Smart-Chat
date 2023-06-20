@@ -85,7 +85,7 @@ struct LoginView: View {
             print("Please enter your email and password")
         } else {
             isLoading = true
-            showAccountText = false 
+            showAccountText = false
             // Simulate an asynchronous login operation
             DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                 // Perform the login operation
@@ -100,6 +100,7 @@ struct LoginView: View {
 }
 
 struct LoginView_Previews: PreviewProvider {
+    
     static var previews: some View {
         LoginView(Change_To_Main: .constant(false), navigateToRegistration: .constant(false), navigateToLogin: .constant(false))
             .padding(0.0)

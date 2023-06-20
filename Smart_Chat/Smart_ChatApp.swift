@@ -13,6 +13,8 @@ struct Smart_ChatApp: App {
     @State private var navigateToRegistration: Bool = false
     @State private var loggedIn: Bool = false
     @State private var navigateToLogin: Bool = false
+    @State private var Save_Change: Bool = false
+    
     
 
 
@@ -29,6 +31,10 @@ struct Smart_ChatApp: App {
            if navigateToLogin == true  {
                 LoginView(Change_To_Main: $loggedIn, navigateToRegistration: $navigateToRegistration, navigateToLogin: $navigateToLogin)
             }
+            if Save_Change {
+                 Setting_ViewUI()
+            }
+             
         }
 
 

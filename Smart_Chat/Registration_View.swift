@@ -14,6 +14,7 @@
 import SwiftUI
 
 struct RegistrationView: View {
+    @State private var username: String = ""
     @State private var email: String = ""
     @State private var password: String = ""
     @State private var confirmPassword: String = ""
@@ -34,6 +35,10 @@ struct RegistrationView: View {
                 .aspectRatio(contentMode:  .fit)
                 .frame(width: 150)
             
+            TextField("Username", text: $username)
+                         .textFieldStyle(RoundedBorderTextFieldStyle())
+                         .padding()
+                         .autocapitalization(.none)
             
             TextField("Email", text: $email)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -81,7 +86,7 @@ struct RegistrationView: View {
     
     func register() {
         navigateToRegistration = false
-        if email.isEmpty || password.isEmpty || confirmPassword.isEmpty {
+        if username.isEmpty || email.isEmpty || password.isEmpty || confirmPassword.isEmpty  {
             // Show an error message if any field is empty
             print("Please fill in all fields")
         } else if password != confirmPassword {
@@ -98,6 +103,7 @@ struct RegistrationView: View {
                 print("Registered successfully")
                 
                 // Reset the form
+                username = ""
                 email = ""
                 password = ""
                 confirmPassword = ""

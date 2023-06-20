@@ -28,8 +28,8 @@ struct ContentView: View {
                 }
                    
             // Friends View
-            Text("Friends")
-                .tabItem {
+            Friends_ViewUI()
+                        .tabItem {
                     Image(systemName: "person.2")
                     Text("Friends")
                 }
