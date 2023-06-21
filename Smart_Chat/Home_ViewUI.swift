@@ -3,41 +3,39 @@ import SwiftUI
 struct Home_ViewUI: View {
     var body: some View {
         NavigationView {
-            VStack(spacing: 40) {
-             
-                HStack{
-                 
-                        ButtonBlockView(text: "Hi, welcome to the Smart Chat App ", color: .blue)
+            VStack(spacing: 30) {
+                HStack {
+                    ButtonBlockView(text: "Hi, welcome to the Smart Chat App ", color: .blue, image: Image(systemName: "person"))
                         .multilineTextAlignment(.center)
-
-                 
                 }
-                HStack{
-                    NavigationLink(destination: AccountSettingsView()){
-                        ButtonBlockView(text: "Personal information", color: .cyan)
+                HStack {
+                    NavigationLink(destination: AccountSettingsView()) {
+                        ButtonBlockView(text: "Personal information", color: .cyan, image: Image(systemName: "person.fill"))
                     }
                 }
-                HStack{
+                HStack {
                     NavigationLink(destination: Friends_ViewUI()) {
-                        ButtonBlockView(text: "Friends", color: .orange)
+                        ButtonBlockView(text: "Friends", color: .orange, image: Image(systemName: "person.2.fill"))
                     }
-                    
                     NavigationLink(destination: Setting_ViewUI()) {
-                        ButtonBlockView(text: "Settings", color: .purple)
+                        ButtonBlockView(text: "Settings", color: .purple, image: Image(systemName: "gear"))
                     }
-                    
                 }
-                
                 Spacer()
             }
             .padding()
         }
+       
+
     }
+        
 }
+    
 
 struct ButtonBlockView: View {
     let text: String
     let color: Color
+    let image: Image
     
     var body: some View {
         Text(text)
@@ -48,7 +46,6 @@ struct ButtonBlockView: View {
             .background(color)
             .cornerRadius(10)
             .bold()
-        
     }
 }
 
