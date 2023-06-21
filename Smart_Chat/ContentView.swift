@@ -9,19 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-     
-        
-        
                 TabView {
             // Home View
-            Text("Home")
+            Home_ViewUI()
                 .tabItem {
                     Image(systemName: "house")
                     Text("Home")
                 }
             
             // Messages View
-            Text("Messages")
+            Message_ViewUI()
                 .tabItem {
                     Image(systemName: "message")
                     Text("Messages")
@@ -40,6 +37,7 @@ struct ContentView: View {
                     Image(systemName: "gearshape")
                     Text("Settings")
                 }
+                    
         }
     }
 }

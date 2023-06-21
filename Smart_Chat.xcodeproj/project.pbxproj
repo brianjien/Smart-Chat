@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE1BD0172A42CFB200FD0FBF /* Home_ViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1BD0162A42CFB200FD0FBF /* Home_ViewUI.swift */; };
+		EE1BD0192A42CFFB00FD0FBF /* Message_ViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1BD0182A42CFFB00FD0FBF /* Message_ViewUI.swift */; };
 		EE2DE8CA2A2DC672002B9E04 /* Smart_ChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DE8C92A2DC672002B9E04 /* Smart_ChatApp.swift */; };
 		EE2DE8CC2A2DC672002B9E04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DE8CB2A2DC672002B9E04 /* ContentView.swift */; };
 		EE2DE8CE2A2DC673002B9E04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2DE8CD2A2DC673002B9E04 /* Assets.xcassets */; };
@@ -49,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE1BD0162A42CFB200FD0FBF /* Home_ViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_ViewUI.swift; sourceTree = "<group>"; };
+		EE1BD0182A42CFFB00FD0FBF /* Message_ViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message_ViewUI.swift; sourceTree = "<group>"; };
 		EE2DE8C62A2DC672002B9E04 /* Smart_Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smart_Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2DE8C92A2DC672002B9E04 /* Smart_ChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_ChatApp.swift; sourceTree = "<group>"; };
 		EE2DE8CB2A2DC672002B9E04 /* ContentView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; };
@@ -138,6 +142,8 @@
 				EE79FC152A2F0AD700840B3B /* AppDelegate.swift */,
 				EE79FC172A2F1EB800840B3B /* Login_View.swift */,
 				EE6B8EE72A30291B00D63568 /* Registration_View.swift */,
+				EE1BD0162A42CFB200FD0FBF /* Home_ViewUI.swift */,
+				EE1BD0182A42CFFB00FD0FBF /* Message_ViewUI.swift */,
 			);
 			path = Smart_Chat;
 			sourceTree = "<group>";
@@ -329,6 +335,7 @@
 				EE6B8EF22A39AD6E00D63568 /* ThemeSettingsView.swift in Sources */,
 				EE6B8EFB2A39B6C500D63568 /* ImagePickerView.swift in Sources */,
 				EE6B8EF92A39ADAD00D63568 /* AboutAppView.swift in Sources */,
+				EE1BD0192A42CFFB00FD0FBF /* Message_ViewUI.swift in Sources */,
 				EE79FC182A2F1EB800840B3B /* Login_View.swift in Sources */,
 				EE6B8EE82A30291B00D63568 /* Registration_View.swift in Sources */,
 				EE2DE8CA2A2DC672002B9E04 /* Smart_ChatApp.swift in Sources */,
@@ -337,6 +344,7 @@
 				EE6B8F002A404D0300D63568 /* FriendAddUI.swift in Sources */,
 				EE6B8EF42A39AD7B00D63568 /* LanguageSettingsView.swift in Sources */,
 				EE6B8EEE2A39AD4200D63568 /* PrivacySettingsView.swift in Sources */,
+				EE1BD0172A42CFB200FD0FBF /* Home_ViewUI.swift in Sources */,
 				EE6B8EEA2A39AC6A00D63568 /* Setting_ViewUI.swift in Sources */,
 				EE6B8EF62A39AD8700D63568 /* AppearanceSettingsView.swift in Sources */,
 			);
